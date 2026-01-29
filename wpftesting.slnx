@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ASMlib/ASMlib.vcxproj" Id="5e604b4e-d2e8-48c0-8dc9-fadc2ccc64e9" />
+  <Project Path="Clib/Clib.vcxproj" Id="626be530-bc68-4bde-a92b-864516cd73cf" />
+  <Project Path="wpftesting/JAproj.csproj" Id="76b80216-8973-414e-ba0f-acf6ed53f4dd">
+    <BuildDependency Project="ASMlib/ASMlib.vcxproj" />
+    <Platform Solution="Release|x64" Project="x64" />
+  </Project>
+</Solution>
